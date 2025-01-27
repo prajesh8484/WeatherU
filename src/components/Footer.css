@@ -1,0 +1,27 @@
+.bottom-text {
+    position: fixed;
+    bottom: -6px;
+   
+    color: var(--color-footer-bottom);
+    font-size: 12px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #666;
+    color: var(--color-footer-a);
+  }
+  
+  .made-with:hover {
+    text-decoration: underline;
+  }
+  .foo{
+    display: flex;
+    justify-content: center;
+  }
