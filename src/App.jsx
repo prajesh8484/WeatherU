@@ -45,11 +45,9 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_API}?q=${city}&appid=${
-          import.meta.env.VITE_API_KEY
-        }&units=metric`
-      );
+const response = await fetch(
+  `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=Your_API_Key&units=metric`
+);
       if(response.status === 404){
         setWeather({name:null})
         setError("City not found");
