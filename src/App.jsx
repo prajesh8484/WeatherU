@@ -46,7 +46,7 @@ function App() {
     setError(null);
     try {
 const response = await fetch(
-  `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=Your_API_Key&units=metric`
+  `https://api.openweathermap.org/data/2.5/weather?q=${city.trim()}&appid=Your_API_Key&units=metric`
 );
       if(response.status === 404){
         setWeather({name:null})
