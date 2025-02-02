@@ -20,7 +20,7 @@ function Footer() {
             <b> · </b> Open sourced on
           </p>
           <a
-            href="https://github.com/prajesh8484"
+            href="https://github.com/prajesh8484/WeatherU"
             target="_blank"
             className="made-with"
           >
