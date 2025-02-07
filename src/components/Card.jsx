@@ -8,8 +8,10 @@ import AirIcon from "@mui/icons-material/Air";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import "./Card.css";
 import Loader from "./Loader.jsx";
+import useCountryNames from '../hooks/useCountryNames';  
 
 function Card({ weather }) {
+  const { getCountryName } = useCountryNames();     
 
   const [loading, setLoading] = useState(true);
 
@@ -152,7 +154,7 @@ function Card({ weather }) {
 
         <div className="author">
           <span className="name">Country: </span>
-          {weather.sys.country}
+          {getCountryName(weather.sys.country)}       
         </div>
       </div>
     </div>
