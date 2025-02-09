@@ -54,7 +54,6 @@ const response = await fetch(
         return;
       }      
       const data = await response.json();
-      console.log(data);
       setWeather(data);
     } catch (error) {
       setError(error.message);
