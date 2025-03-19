@@ -10,4 +10,5 @@
 ## Description
 
 **Weatheru** is a simple weather forecasting site built with **React**, offering quick and accurate weather updates.
+
 [Click here to visit the website!](https://theweatheru.vercel.app/)
