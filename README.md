@@ -47,5 +47,7 @@
    Open your browser and go to [http://localhost:5173](http://localhost:5173) to view the project.  
 
 
-
-
+# Features
+- **Dark Mode** – Toggle between light and dark themes.
+- **Responsive Design** – Adjusts layout to different screen sizes (mobile, tablet, desktop).
+- **Custom Animations** – Smooth transitions and effects.
