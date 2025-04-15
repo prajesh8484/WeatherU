@@ -93,6 +93,7 @@ const response = await fetch(
         <br /><br /><br /><br /><br />
         <Loader />
         <h5>Loading...</h5>
+        <Footer/>
       </>
     );
   }
